@@ -39,12 +39,4 @@ Outputs: `outputs/figures/*.png`, `outputs/report.md`, `outputs/results.json`, `
 - CO2 rise accelerated: **~17 ppm/decade since 1958** vs **~23 ppm/decade since 2000**
 - CO2 seasonal swing: **~6.3 ppm**, peaking in May
 
-## Interview talking points
-- **Why rebase before comparing sources?** Different baselines shift the whole series; comparing
-  raw values would show a false offset.
-- **Why report two correlations?** CO2 and temperature both trend upward, so the level
-  correlation (r = 0.97) is inflated. Year-on-year changes give a more honest r = 0.29.
-- **Limitations:** linear-regression standard errors ignore autocorrelation in monthly data (too
-  optimistic); a trend line is descriptive, not causal; early-record data is sparse.
-- **Possible extensions:** seasonal decomposition (STL), changepoint detection, Prophet/SARIMA
-  forecast of CO2, Tableau dashboard of the processed CSVs.
+
